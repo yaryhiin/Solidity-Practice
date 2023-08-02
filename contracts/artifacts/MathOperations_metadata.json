@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_first",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_second",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_first",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_second",
+						"type": "uint256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_first",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_second",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_first",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_second",
+						"type": "uint256"
+					}
+				],
+				"name": "substract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MathOperations.sol": "MathOperations"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MathOperations.sol": {
+			"keccak256": "0x7823b85869aa01768f226a69ebb0d10b6912abbdc0c80350aff7359d3af9792b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd6b02d080589795026007945d63d56ea5ce688d47b1cc8193e817d0a26e84ac",
+				"dweb:/ipfs/QmPX2LVPeEfzWHRrfmp6ACP2ZWGEC7zdVjXYV2fqu1BCmd"
+			]
+		}
+	},
+	"version": 1
+}
